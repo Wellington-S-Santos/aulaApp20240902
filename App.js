@@ -18,7 +18,7 @@ export default function App() {
     try {
       setError(null); // Reset error
       const response = await fetch(
-        `http://192.168.56.1:3000/calculate?num1=${num1}&num2=${num2}&operation=${operation}`
+        `http://172.16.7.2:3000/calculate?num1=${num1}&num2=${num2}&operation=${operation}`
       );
       const data = await response.json();
 
