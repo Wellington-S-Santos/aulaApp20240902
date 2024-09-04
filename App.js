@@ -123,7 +123,7 @@ export default function App() {
       <TextInput
         style={styles.input}
         keyboardType="numeric"
-        placeholder="altura"
+        placeholder="alturaEmCm"
         value={altura}
         onChangeText={setAltura}
       />
